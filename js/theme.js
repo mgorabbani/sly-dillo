@@ -10,8 +10,8 @@
 
 (function($) {
     "use strict";
-    
-    
+
+
     $(document).on ('ready', function (){
 
         $.fn.visible = function(partial) {
@@ -23,7 +23,7 @@
                 _bottom       = _top + $t.height(),
                 compareTop    = partial === true ? _bottom : _top,
                 compareBottom = partial === true ? _top : _bottom;
-          
+
           return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
         };
 
@@ -95,11 +95,11 @@
         var imgID = $img.attr('id');
         var imgClass = $img.attr('class');
         var imgURL = $img.attr('src');
-    
+
         $.get(imgURL, function(data) {
             // Get the SVG tag, ignore the rest
             var $svg = $(data).find('svg');
-    
+
             // Add replaced image's ID to the new SVG
             if(typeof imgID !== 'undefined') {
                 $svg = $svg.attr('id', imgID);
@@ -108,20 +108,20 @@
             if(typeof imgClass !== 'undefined') {
                 $svg = $svg.attr('class', imgClass+' replaced-svg');
             }
-    
+
             // Remove any invalid XML tags as per http://validator.w3.org
             $svg = $svg.removeAttr('xmlns:a');
-            
+
             // Check if the viewport is set, else we gonna set it if we can.
             if(!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) {
                 $svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'))
             }
-    
+
             // Replace image with new SVG
             $img.replaceWith($svg);
-    
+
             }, 'xml');
-    
+
         });
 
 // ----------------------------- Sidebar Menu/E-commerce
@@ -152,7 +152,7 @@
               $(this).parent('li').children('ul').removeClass('show');
           } else {
               $('.sub-menu.show').removeClass('show');
-              $(this).parent('li').children('ul').addClass('show');    
+              $(this).parent('li').children('ul').addClass('show');
           }
        });
 
@@ -174,7 +174,7 @@
           });
         }
 
-        
+
 // --------------------------- Animated Bootstrap Banner
           //Function to animate slider captions
           function doAnimations(elems) {
@@ -210,17 +210,17 @@
             doAnimations($animatingElems);
           });
 
-          // scroll slides on mouse scroll 
+          // scroll slides on mouse scroll
           $('#eCommerce-carousel').bind('mousewheel DOMMouseScroll', function(e){
 
                   if(e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
                       $(this).carousel('prev');
-                
-                
+
+
                   }
                   else{
                       $(this).carousel('next');
-                
+
                   }
               });
 
@@ -238,7 +238,7 @@
             }
           });
             $( '.price-ranger .ranger-min-max-block .min' ).val( '$' + $( '.price-ranger #slider-range' ).slider( 'values', 0 ) );
-          $( '.price-ranger .ranger-min-max-block .max' ).val( '$' + $( '.price-ranger #slider-range' ).slider( 'values', 1 ) );        
+          $( '.price-ranger .ranger-min-max-block .max' ).val( '$' + $( '.price-ranger #slider-range' ).slider( 'values', 1 ) );
         }
 
 
@@ -263,7 +263,7 @@
         }
 
 
-// ------------------------ Credit Card Option 
+// ------------------------ Credit Card Option
         if($("#credit-card").length) {
           $(".payment-radio-button").on('click',function(){
              if ($("#credit-card").is(":checked")) {
@@ -274,9 +274,9 @@
            });
         }
 
-        
+
 // ------------------------ Navigation Scroll
-        $(window).on('scroll', function (){   
+        $(window).on('scroll', function (){
           var sticky = $('.theme-main-menu'),
           scroll = $(window).scrollTop();
           if (scroll >= 100) sticky.addClass('fixed');
@@ -292,9 +292,9 @@
             });
             $(this).on('focusout', function() {
                 $(this).attr('placeholder',$(this).data('holder'));
-            });     
+            });
         });
-        
+
 // -------------------- From Bottom to Top Button
             //Check to see if the window is top if not then display button
         $(window).on('scroll', function (){
@@ -332,14 +332,14 @@
 
 
 // ------------------------ Modal box
-        if ($(".iziModal").length) { 
+        if ($(".iziModal").length) {
           $(".iziModal").iziModal({
             width: 2550,
             overlayColor: 'rgba(255, 255, 255, 0.95)',
             fullscreen: true,
           });
         }
-        
+
 
 // ----------------------- Progress Bar
         $('.progress-bar').each(function(){
@@ -357,11 +357,11 @@
             });
         });
 
-        
+
 // --------------------------- Theme Main Banner Slider One
         var banner = $(".banner-one");
         if (banner.length) {
-          banner.camera({ //here I declared some settings, the height and the presence of the thumbnails 
+          banner.camera({ //here I declared some settings, the height and the presence of the thumbnails
             height: '940px',
             pagination: false,
             navigation: false,
@@ -456,7 +456,7 @@
         }
 
 
-// ------------------------------ Partner Logo Footer 
+// ------------------------------ Partner Logo Footer
         var logoslider = $ (".partner-slider");
           if(logoslider.length) {
               logoslider.owlCarousel({
@@ -484,7 +484,7 @@
           }
 
 
-// -------------------------------- Customer Slider 
+// -------------------------------- Customer Slider
         var csSlider = $ (".customer-slider");
           if(csSlider.length) {
               csSlider.owlCarousel({
@@ -707,7 +707,7 @@
             $('.theme-accordion > .panel').on('show.bs.collapse', function (e) {
                   var heading = $(this).find('.panel-heading');
                   heading.addClass("active-panel");
-                  
+
             });
             $('.theme-accordion > .panel').on('hidden.bs.collapse', function (e) {
                 var heading = $(this).find('.panel-heading');
@@ -832,30 +832,30 @@
           }
 
 
-         
+
     }); //End Window Ready Function
 
-    
+
 
 
     $(window).on ('load', function (){ // makes sure the whole site is loaded
 
-        // -------------------- Site Preloader
-        $('#ctn-preloader').fadeOut(); // will first fade out the loading animation
-        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-        $('body').delay(350).css({'overflow':'visible'});
+        // // -------------------- Site Preloader
+        // $('#ctn-preloader').fadeOut(); // will first fade out the loading animation
+        // $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+        // $('body').delay(350).css({'overflow':'visible'});
 
 
 // ------------------------------- AOS Animation
-        if ($("[data-aos]").length) { 
+        if ($("[data-aos]").length) {
             AOS.init({
             duration: 1000,
             mirror: true
           });
         }
 
-// ------------------------------- WOW Animation 
-        if ($(".wow").length) { 
+// ------------------------------- WOW Animation
+        if ($(".wow").length) {
             var wow = new WOW({
             boxClass:     'wow',      // animated element css class (default is wow)
             animateClass: 'animated', // animation css class (default is animated)
@@ -924,11 +924,11 @@
 
     $(window).on ('scroll', function (){ // makes sure the whole site is loaded
 
-        // --------------------- Viewport Animation 
+        // --------------------- Viewport Animation
         $(".hide-pr").each(function(i, el) {
           var el = $(el);
           if (el.visible(true)) {
-            el.addClass("show-pr"); 
+            el.addClass("show-pr");
           } else {
             el.removeClass("show-pr");
           }
@@ -937,5 +937,5 @@
     });  //End On Scroll Function
 
 
-    
+
 })(jQuery);

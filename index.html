@@ -438,6 +438,16 @@
     	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     	<!-- jQuery -->
 		<script src="vendor/jquery.2.2.3.min.js"></script>
+		<script>
+		  $(window).on ('load', function (){ // makes sure the whole site is loaded
+
+			// -------------------- Site Preloader
+			$('#ctn-preloader').fadeOut(); // will first fade out the loading animation
+			$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+			$('body').delay(350).css({'overflow':'visible'});
+
+		  })
+		</script>
 		<!-- Popper js -->
 		<script src="vendor/popper.js/popper.min.js"></script>
 		<!-- Bootstrap JS -->
