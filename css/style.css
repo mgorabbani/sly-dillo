@@ -146,7 +146,7 @@
 /*------------- Map -------------*/
 @import url('../vendor/sanzzy-map/dist/snazzy-info-window.min.css');
 /*----Flaticon-------*/
-/* @import url('../fonts/icon/font/flaticon.css'); */
+@import url('../fonts/icon/font/flaticon.css');
 /*---------------- Custom Animation -------------*/
 @import url('custom-animation.css');
 /*---------------- Animated Headline -------------*/
