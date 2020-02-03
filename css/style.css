@@ -9779,3 +9779,20 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
   margin-top: 32px;
   margin-bottom: 32px;
 }
+
+.quote-about-page{
+  font-size: 35px;
+  line-height: 48px;
+  padding: 20px;
+  background: #fe4c570d;
+  border-radius: 30px;
+  color: #38373b;
+  margin-top: 100px;
+  font-weight: bold;
+}
+.quote-about-page span {
+  font-size: 20px;
+}
+.our-service-sass .service-block p {
+  min-height: 272px;
+}
