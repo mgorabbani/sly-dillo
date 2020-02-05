@@ -752,7 +752,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   padding: 65px 0 0;
 }
 .theme-menu-one .logo {
-  margin-top: -20px;
+  margin-top: -50px;
 }
 .theme-menu-one .logo img {
 width: 300px;
@@ -7363,7 +7363,6 @@ width: 300px;
 #contact-form.form-style-two .form-group input:focus,#contact-form.form-style-two .form-group textarea:focus {border-bottom-color: #545454;}
 .contact-address-two {
   text-align: center;
-  padding: 250px 0 150px;
 }
 .contact-address-two .theme-title-one .upper-title {color: rgba(147,155,169,0.5);}
 .contact-address-two .theme-title-one {padding-bottom: 50px;}
