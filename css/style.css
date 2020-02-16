@@ -1237,6 +1237,10 @@ body .line-button-three:hover,
   line-height: 60px;
   color: #fd6f22;
 }
+.theme-title-one .main-title a {
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .theme-title-one.studio-title .main-title {
   font-size: 72px;
   font-weight: 600;
@@ -1308,9 +1312,9 @@ body .line-button-three:hover,
   padding: 0 145px;
 }
 .theme-title-three .title {
-  font-size: 48px;
-  line-height: 60px;
-  color: #3e3e3e;
+  font-size: 36px;
+  line-height: 50px;
+  color: #f77023;
 }
 .theme-title-three p {
   font-size: 24px;
@@ -1404,10 +1408,10 @@ body .line-button-three:hover,
   padding: 65px 0 0;
 }
 .theme-menu-one .logo {
-  margin-top: -50px;
+  margin-top: -20px;
 }
 .theme-menu-one .logo img {
-  width: 300px;
+  width: 200px;
 }
 .theme-menu-one .logo a {
   display: block;
@@ -8868,11 +8872,12 @@ body .line-button-three:hover,
 }
 /*----------------------- Our Service Minimal ----------------------*/
 .our-service .service-block .service-title {
-  font-size: 48px;
-  line-height: 54px;
+  font-size: 24px;
+  line-height: 35px;
+  font-family: 'Shine';
 }
 .our-service .service-block .service-title a {
-  color: #3e3e3e;
+  color: #2b2b2c;
 }
 .our-service .service-block .read-more {
   font-size: 38px;
@@ -9039,6 +9044,8 @@ body .line-button-three:hover,
 }
 .service-modren .service-block .service-info .service-title {
   margin: 40px 0 45px;
+  font-size: 36px;
+  line-height: 47px;
 }
 .service-modren .service-block {
   padding-bottom: 150px;
