@@ -9014,6 +9014,11 @@ body .line-button-three:hover,
 /*------------------------ Our Service Modren -------------------*/
 .service-modren .service-block .img-box img {
   border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+.service-modren .service-block .img-box {
+  padding: 40px;
 }
 .service-modren .service-block .service-info .tag {
   display: inline-block;
@@ -9022,27 +9027,27 @@ body .line-button-three:hover,
   padding: 0 35px;
   border-radius: 3px;
 }
-.service-modren .service-block .service-info .tag.color-one {
+.service-modren .service-block .tag.color-one {
   background: #ffeaee;
   color: #ff8aa0;
 }
-.service-modren .service-block .service-info .tag.color-two {
+.service-modren .service-block .tag.color-two {
   background: #fef9da;
   color: #ead24c;
 }
-.service-modren .service-block .service-info .tag.color-three {
+.service-modren .service-block .tag.color-three {
   background: #e7fff5;
   color: #70e9ae;
 }
-.service-modren .service-block .service-info .tag.color-four {
+.service-modren .service-block .tag.color-four {
   background: #edf9ff;
   color: #7fd8ff;
 }
 
-.service-modren .service-block .service-info .read-more {
+.service-modren .service-block .read-more {
   color: #cfd5df;
 }
-.service-modren .service-block .service-info .service-title {
+.service-modren .service-block .service-title {
   margin: 40px 0 45px;
   font-size: 36px;
   line-height: 47px;
