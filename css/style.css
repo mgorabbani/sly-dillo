@@ -704,7 +704,8 @@ body .white-shdw-button {
   box-shadow: 0px 10px 25px 0px rgba(123, 147, 171, 0.15);
   border-radius: 3px;
   padding: 0 33px;
-  background: #fff;
+  background: #f77122;
+  color: #fff !important;
 }
 body .white-shdw-button .icon {
   font-size: 25px;
@@ -1232,6 +1233,7 @@ body .line-button-three:hover,
 }
 .theme-title-one .main-title {
   font-size: 48px;
+  font-family: 'Shine';
   line-height: 60px;
   color: #fd6f22;
 }
@@ -1811,9 +1813,9 @@ body .line-button-three:hover,
 }
 #theme-banner-one .main-wrapper .main-title {
   font-family: 'Shine';
-  font-size: 4em;
-  line-height: 80px;
-  padding: 25px 0 35px;
+  font-size: 3em;
+  line-height: 60px;
+  padding-bottom: 10px;
 }
 #theme-banner-one .main-wrapper .sub-title {
   font-size: 20px;
@@ -4408,13 +4410,12 @@ body .line-button-three:hover,
 /*----------------------- Our Service/APP ------------------------*/
 .our-service-app {
   position: relative;
-  padding: 260px 0 200px;
-  border-bottom: 1px solid #ededed;
+  padding: 160px 0 100px;
 }
 .our-service-app .main-content {
   max-width: 1450px;
   padding: 0 15px;
-  margin: 90px auto 0;
+  margin: 0px auto 0;
 }
 .our-service-app .main-content .inner-wrapper {
   text-align: center;
@@ -4423,6 +4424,7 @@ body .line-button-three:hover,
 }
 .our-service-app .main-content .inner-wrapper .title a {
   font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
   color: #4e4e4e;
   margin: 45px 0 30px;
 }
@@ -4608,18 +4610,14 @@ body .line-button-three:hover,
   width: 230px;
   line-height: 51px;
   border-radius: 30px;
-  background: #614ef9;
-  border: 2px solid #614ef9;
+
   font-size: 14px;
-  color: #fff;
+
   text-transform: uppercase;
-  margin: 100px auto 0;
+  margin: 30px auto 0;
   text-align: center;
 }
-.our-service-app .main-content .more-button:hover {
-  background: #fff;
-  color: #614ef9;
-}
+
 .our-service-app .main-content .down-arrow {
   display: block;
   width: 60px;
@@ -5750,11 +5748,11 @@ body .line-button-three:hover,
 /*--------------------- Our Feature/APP --------------------------*/
 .our-feature-app {
   position: relative;
-  padding: 310px 0 250px;
 }
 .our-feature-app .single-feature-box {
-  padding-bottom: 115px;
+  padding: 0px 0 150px;
   position: relative;
+  align-items: center;
 }
 .our-feature-app .single-feature-box:last-child {
   padding: 0;
@@ -5772,10 +5770,11 @@ body .line-button-three:hover,
   left: 80px;
 }
 .our-feature-app .text-wrapper .title {
-  font-size: 2em;
-  line-height: 55px;
-  color: #3e3e3e;
-  padding: 40px 0 30px;
+  font-size: 24px;
+
+  line-height: 35px;
+  color: #f77023;
+  padding: 0px 0 30px;
   z-index: 1;
   position: relative;
 }
@@ -5857,9 +5856,6 @@ body .line-button-three:hover,
   color: #ffeaed;
 }
 
-.our-feature-app .single-feature-box:nth-child(3) .text-wrapper {
-  margin-top: 60px;
-}
 .our-feature-app .feature-img-box {
   position: relative;
   padding-right: 90px;
@@ -6000,8 +5996,21 @@ body .line-button-three:hover,
   z-index: -1;
 }
 .our-feature-app .single-feature-box .access-screen-holder .screen {
-  float: right;
   position: relative;
+  font-size: 20px;
+  padding: 30px 20px;
+  background: #fcc02f69;
+  color: #121213;
+  margin-bottom: 20px;
+}
+.our-feature-app .single-feature-box .access-screen-holder .screen:first-child {
+  background-color: #e91e6324;
+}
+.our-feature-app
+  .single-feature-box
+  .access-screen-holder
+  .screen:last-of-type {
+  background-color: #3f51b552;
 }
 .our-feature-app .single-feature-box .screen-mockup {
   position: relative;
