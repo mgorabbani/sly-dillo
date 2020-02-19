@@ -17,24 +17,11 @@
   }
 }
 @media (max-width: 1550px) {
-  .theme-menu-one .header-right-widget {
-    right: 15px;
-    top: 30px;
-  }
-  .theme-menu-one .header-right-widget .language-switcher button {
-    margin: 0 20px;
-  }
-  .theme-menu-one .header-right-widget .call-us a {
-    font-size: 20px;
-  }
   /* .theme-menu-one .logo,
   .theme-menu-three .logo {
     width: 200px;
   } */
-  .theme-menu-one,
-  .theme-menu-three {
-    padding-top: 40px;
-  }
+
   .theme-menu-three .header-right-widget {
     top: 35px;
   }
@@ -387,11 +374,7 @@
   .navbar > .container-fluid {
     display: block !important;
   }
-  .theme-menu-one .header-right-widget {
-    top: 15px;
-    right: auto;
-    left: 80px;
-  }
+
   .theme-menu-one.fixed,
   .theme-menu-two.fixed,
   .theme-main-menu.theme-menu-three.fixed {
