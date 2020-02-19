@@ -705,6 +705,12 @@ body .white-shdw-button {
   border-radius: 3px;
   padding: 0 33px;
   background: #f77122;
+  background: linear-gradient(
+    328deg,
+    rgba(253, 188, 4, 1) 0%,
+    rgba(253, 113, 34, 1) 100%
+  );
+
   color: #fff !important;
 }
 body .white-shdw-button .icon {
@@ -1169,6 +1175,11 @@ body .line-button-three:hover,
 .action-banner-three,
 .studio-client-slider .center .customer-block {
   background: #fd7e14;
+  background: linear-gradient(
+    328deg,
+    rgba(253, 188, 4, 1) 0%,
+    rgba(253, 113, 34, 1) 100%
+  );
 }
 .theme-footer-one .top-footer .footer-information ul li a:hover,
 .seo-contact-banner .contact-button:hover,
@@ -3881,6 +3892,11 @@ body .line-button-three:hover,
   width: 248px;
   line-height: 60px;
   background: #fd7e14;
+  background: linear-gradient(
+    328deg,
+    rgba(253, 188, 4, 1) 0%,
+    rgba(253, 113, 34, 1) 100%
+  );
   border-radius: 5px;
   font-size: 20px;
   color: #393939;
@@ -5822,12 +5838,16 @@ body .line-button-three:hover,
   .explore-button {
   color: #fdfdfd;
   background: #fd7e14;
+  background: linear-gradient(
+    328deg,
+    rgba(253, 188, 4, 1) 0%,
+    rgba(253, 113, 34, 1) 100%
+  );
 }
 .our-feature-app
   .single-feature-box:nth-child(1)
   .text-wrapper
   .explore-button:hover {
-  background: #f99847;
   color: #fdfdfd;
 }
 .our-feature-app
@@ -5836,6 +5856,11 @@ body .line-button-three:hover,
   .explore-button {
   color: #ffffff;
   background: #fd7e14;
+  background: linear-gradient(
+    328deg,
+    rgba(253, 188, 4, 1) 0%,
+    rgba(253, 113, 34, 1) 100%
+  );
 }
 .our-feature-app
   .single-feature-box:nth-child(2)
