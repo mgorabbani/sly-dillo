@@ -45,10 +45,6 @@
       <script src="vendor/html5shiv.js"></script>
       <script src="vendor/respond.js"></script>
     <![endif]-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css"
-    />
   </head>
 
   <body>
@@ -98,12 +94,14 @@
 				Theme Main Menu
 			==============================================
 			-->
-      <div class="theme-main-menu theme-menu-one">
-        <div class="container ">
-          <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand logo" href="/">
-              <img src="images/logo/slydillo_horizontal.png" alt="" />
-            </a>
+      <div class="theme-main-menu theme-menu-two">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/logo/slydillo_horizontal.png" alt=""
+          /></a>
+        </div>
+        <nav id="mega-menu-holder" class="navbar navbar-expand-lg">
+          <div class="ml-auto nav-container">
             <button
               class="navbar-toggler navbar-toggler-right"
               type="button"
@@ -113,7 +111,7 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <i class="flaticon-setup"></i>
+              <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav">
@@ -123,7 +121,7 @@
                 <li class="nav-item ">
                   <a href="about-us.html" class="nav-link">About Us</a>
                 </li>
-                <li class="nav-item ">
+                <li class="nav-item">
                   <a href="services.html" class="nav-link">Services</a>
                 </li>
                 <li class="nav-item active">
@@ -131,26 +129,19 @@
                     >Why BigCommerce</a
                   >
                 </li>
+                <li class="nav-item mobile">
+                  <a href="discover.html" class="nav-link">Work with us</a>
+                </li>
               </ul>
             </div>
-
-            <!-- /.container -->
-          </nav>
-          <!-- /#mega-menu-holder -->
-          <div class="header-right-widget">
-            <ul>
-              <li>
-                <a href="discover.html" class="contact-us white-shdw-button"
-                  >Work With Us <i class="icon flaticon-next"></i
-                ></a>
-              </li>
-            </ul>
           </div>
-        </div>
-        <!-- /.header-right-widget -->
+          <!-- /.container -->
+        </nav>
+        <!-- /#mega-menu-holder -->
+        <a href="discover.html" class="contact-us white-shdw-button"
+          >Work with us</a
+        >
       </div>
-      <!-- /.theme-main-menu -->
-
       <!-- /.theme-main-menu -->
       <!-- Contact Address Two -->
       <div class="calendly  pt-150 pb-150">
@@ -178,7 +169,7 @@
             <a
               href="mailto:workwithus@slydillo.com"
               class="email"
-              style="color:#FB7431;"
+              style="color:#fff;"
               >workwithus@slydillo.com</a
             >
           </h4>

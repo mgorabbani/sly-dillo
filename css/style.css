@@ -695,6 +695,24 @@ body .line-button-three {
 body .line-button-three:hover {
   color: #fff;
 }
+
+body .discover-btn {
+  line-height: 55px;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0px 10px 25px 0px rgba(123, 147, 171, 0.15);
+  border-radius: 3px;
+  padding: 0 33px;
+  background: #f77122;
+  background: linear-gradient(
+    328deg,
+    rgba(253, 188, 4, 1) 0%,
+    rgba(253, 113, 34, 1) 100%
+  );
+  z-index: 1;
+  color: #fff !important;
+}
 body .white-shdw-button {
   line-height: 55px;
   display: inline-block;
@@ -709,7 +727,10 @@ body .white-shdw-button {
     rgba(253, 188, 4, 1) 0%,
     rgba(253, 113, 34, 1) 100%
   );
-
+  position: absolute;
+  right: 90px;
+  top: 20px;
+  z-index: 1;
   color: #fff !important;
 }
 body .white-shdw-button .icon {
@@ -717,7 +738,7 @@ body .white-shdw-button .icon {
   vertical-align: middle;
   margin-left: 10px;
 }
-body .white-shdw-button:hover {
+body .white-shdw-button:hover , body .discover-btn{
   color: #fff;
   box-shadow: 0px 13px 28px 0px rgba(163, 48, 53, 0.25);
 }
@@ -1601,9 +1622,9 @@ body .line-button-three:hover,
 }
 .theme-menu-two .logo {
   position: absolute;
-  top: 50px;
+  top: 20px;
   left: 90px;
-  width: 63px;
+  width: 250px;
   z-index: 2;
 }
 .theme-menu-two .quote-button {
@@ -1784,10 +1805,7 @@ body .line-button-three:hover,
 .theme-menu-two.fixed .quote-button {
   top: 9px;
 }
-.theme-main-menu.theme-menu-two.fixed,
-.theme-menu-one.d-align-item.color-white.fixed {
-  background: #1b1d3d;
-}
+
 .theme-main-menu.theme-menu-three.fixed {
   background: rgba(29, 31, 66, 0.98);
   border-bottom: 1px solid rgba(255, 255, 255, 0.03);
@@ -3862,7 +3880,7 @@ body .line-button-three:hover,
   text-align: center;
   background: linear-gradient(
     -134deg,
-    rgb(255, 255, 255) 0%,
+    rgb(253, 119, 33) 0%,
     rgb(253, 183, 7) 100%
   );
   padding: 80px 0;
@@ -3886,6 +3904,7 @@ body .line-button-three:hover,
   font-size: 38px;
   line-height: 54px;
   padding-bottom: 30px;
+  color: #fff;
 }
 .sass-contact-banner .subscribe-button {
   width: 248px;
@@ -3900,6 +3919,7 @@ body .line-button-three:hover,
   font-size: 20px;
   color: #393939;
   box-shadow: 0px 15px 30px 0px rgba(246, 245, 211, 1);
+  border: 1px solid #fff;
 }
 .sass-contact-banner .subscribe-button:hover {
   color: #fff;
@@ -13936,4 +13956,13 @@ html[lang='ru'] .op-menu-one .ct-language__dropdown li a[data-lang='ru'] {
   font-size: 22px;
   margin-top: 15px;
   font-weight: bold;
+}
+
+.fixed .navbar,
+.white-shdw-button {
+  padding-top: 0;
+}
+
+body .fixed .white-shdw-button {
+  top: 8px;
 }

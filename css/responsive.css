@@ -440,7 +440,7 @@
   }
   .theme-menu-two .navbar .navbar-toggler,
   .theme-menu-one.d-align-item.app-menu .navbar .navbar-toggler {
-    color: #fff;
+    color: #fb7431;
   }
   .theme-menu-three .navbar .navbar-toggler {
     color: #e1a34c;
@@ -449,10 +449,7 @@
   .theme-menu-one.d-align-item .logo {
     top: 10px;
   }
-  .theme-menu-two #navbarSupportedContent,
-  .app-menu #navbarSupportedContent {
-    background: #1b1d3d;
-  }
+
   .theme-menu-three #navbarSupportedContent {
     background: rgba(29, 31, 66, 0.98);
   }
@@ -1188,6 +1185,29 @@
   .agn-contact-banner .title br {
     display: none;
   }
+  .theme-title-three .title {
+    margin-bottom: -30px;
+  }
+  .sass-contact-banner .d-shape,
+  .sass-contact-banner .u-shape {
+    display: none;
+  }
+  .sass-contact-banner .title {
+    font-size: 22px !important;
+    line-height: 35px;
+  }
+  .mobile {
+    background: linear-gradient(
+      328deg,
+      rgba(253, 188, 4, 1) 0%,
+      rgba(253, 113, 34, 1) 100%
+    );
+    text-align: center;
+  }
+  .mobile a {
+    color: #fff !important;
+  }
+
   .theme-title-one .main-title,
   .agn-contact-banner .title,
   #theme-banner-four .main-wrapper .main-title,
@@ -1199,15 +1219,26 @@
   .project-details .project-title-one,
   .our-service .service-block .service-title,
   .theme-action-banner-two .title {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 22px;
+    line-height: 32px;
   }
   .project-details .project-title-two {
     width: 100%;
   }
+  body {
+    font-size: 16px;
+  }
   .theme-title-three p {
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .our-feature-app .single-feature-box {
+    padding-bottom: 50px;
+  }
+  .single-block p {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0;
   }
   .agn-what-we-do .theme-title-one {
     padding-bottom: 0;
@@ -1454,6 +1485,9 @@
     width: 100%;
     margin-bottom: 30px;
   }
+  .our-service .img-box {
+    margin-top: 45px;
+  }
   .service-modren .service-block:nth-child(even) .service-info {
     padding-left: 0;
   }
@@ -1464,7 +1498,7 @@
     margin-top: 30px;
   }
   .service-modren .service-block {
-    padding: 80px 0 30px;
+    padding: 40px 0 30px;
   }
   .theme-action-banner-two {
     padding: 105px 0 125px;
@@ -1625,14 +1659,14 @@
 
 @media (max-width: 575px) {
   #theme-banner-one .main-wrapper {
-    padding-top: 170px;
+    padding-top: 110px;
   }
   #theme-banner-one .main-wrapper .main-title,
   #theme-banner-two .main-title,
   .seo-work-progress .single-work-list .text-wrapper .title,
   .seo-contact-banner .title {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 18px;
+    line-height: 25px;
   }
   #theme-banner-one .main-wrapper .sub-title {
     font-size: 18px;
@@ -1648,7 +1682,20 @@
     display: none;
   }
   #theme-banner-one .main-wrapper .button-group li {
-    margin-top: 25px;
+    margin-top: -10px;
+  }
+  .our-feature-app .text-wrapper .title {
+    font-size: 17px;
+    padding: 0px 0 10px;
+  }
+  .our-feature-app .single-feature-box .access-screen-holder .screen {
+    font-size: 13px;
+  }
+  .our-feature-app .single-feature-box .access-screen-holder .screen img {
+    width: 50px;
+  }
+  #theme-banner-one .col-md-7 {
+    margin-top: 20px;
   }
   .agn-about-us .learn-more {
     position: relative;
@@ -2022,5 +2069,17 @@
   .team-minimal .single-team-member .img-box {
     width: 250px;
     height: 250px;
+  }
+}
+
+@media (max-width: 780px) {
+  .navbar-nav {
+    padding-left: 0px;
+  }
+  .theme-main-menu .white-shdw-button {
+    display: none;
+  }
+  .theme-menu-two .navbar .navbar-toggler {
+    margin-right: -12px;
   }
 }
