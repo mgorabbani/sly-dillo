@@ -738,7 +738,8 @@ body .white-shdw-button .icon {
   vertical-align: middle;
   margin-left: 10px;
 }
-body .white-shdw-button:hover , body .discover-btn{
+body .white-shdw-button:hover,
+body .discover-btn {
   color: #fff;
   box-shadow: 0px 13px 28px 0px rgba(163, 48, 53, 0.25);
 }
@@ -13965,4 +13966,7 @@ html[lang='ru'] .op-menu-one .ct-language__dropdown li a[data-lang='ru'] {
 
 body .fixed .white-shdw-button {
   top: 8px;
+}
+.mobile {
+  display: none;
 }
