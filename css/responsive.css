@@ -1659,8 +1659,9 @@
 
 @media (max-width: 575px) {
   #theme-banner-one .main-wrapper {
-    padding-top: 110px;
+    padding-top: 130px;
   }
+
   #theme-banner-one .main-wrapper .main-title,
   #theme-banner-two .main-title,
   .seo-work-progress .single-work-list .text-wrapper .title,
@@ -2073,6 +2074,16 @@
 }
 
 @media (max-width: 780px) {
+  .theme-main-menu {
+    padding-top: 0;
+  }
+  .bottom-footer .nav {
+    display: flex;
+    justify-content: center;
+  }
+  .fixed .navbar {
+    padding-bottom: 20px;
+  }
   .navbar-nav {
     padding-left: 0px;
   }
@@ -2080,6 +2091,6 @@
     display: none;
   }
   .theme-menu-two .navbar .navbar-toggler {
-    margin-right: -12px;
+    margin-right: 0;
   }
 }

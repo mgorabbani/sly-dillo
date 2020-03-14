@@ -13966,3 +13966,10 @@ body .fixed .white-shdw-button {
 .mobile {
   display: none;
 }
+.term-list {
+  list-style: square;
+  padding-left: 20px;
+}
+.term-list li {
+  margin-bottom: 10px;
+}
